@@ -1,0 +1,33 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+    static-path-pattern: /static/**
+  #  profiles:
+#    active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Chongqing
+#---
+#spring:
+#  profiles: dev
+#server:
+#  port: 8080
+#debug: true
+#---
+#spring:
+#  profiles: test
+#server:
+#  port: 8081
+#---
+#spring:
+#  profiles: pro
+#server:
+#  port: 8082
+server:
+  port: 8080
+#logging:
+#  config: classpath: static/logs/Errorlog/error.log
+logging:
+  config: classpath:log4j2.yml

@@ -1,0 +1,12 @@
+[v-cloak]{
+    display: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#app{
+    width: 1440px;
+    height: auto;
+    margin: auto;
+}
